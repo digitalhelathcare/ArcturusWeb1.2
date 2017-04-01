@@ -47,6 +47,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
             controller: 'careTakerCtr'
 
         })
+		.state('help',{
+            url:'/help',
+            templateUrl: '../../HTML/app/components/Help/help.html',
+            controller: ''
+
+        })
 
 
 });
